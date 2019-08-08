@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="SaveFormController">
+    <children>
+        <Button layoutX="139.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnSave_onAction" prefHeight="25.0"
+                prefWidth="111.0" text="Save"/>
+        <Button layoutX="265.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnPrint_onAction" prefHeight="25.0"
+                prefWidth="111.0" text="Print"/>
+        <Label layoutX="89.0" layoutY="35.0" prefHeight="17.0" prefWidth="75.0" text="ID"/>
+        <Label layoutX="89.0" layoutY="74.0" prefHeight="17.0" prefWidth="75.0" text="Name"/>
+        <Label layoutX="89.0" layoutY="104.0" prefHeight="17.0" prefWidth="75.0" text="Address"/>
+        <TextField fx:id="txtID" layoutX="187.0" layoutY="31.0" prefHeight="25.0" prefWidth="172.0"/>
+        <TextField fx:id="txtname" layoutX="187.0" layoutY="70.0" prefHeight="25.0" prefWidth="172.0"/>
+        <TextField fx:id="txtAddress" layoutX="187.0" layoutY="100.0" prefHeight="25.0" prefWidth="172.0"/>
+        <TextField fx:id="txtCus" layoutX="487.0" layoutY="31.0" prefHeight="25.0" prefWidth="99.0" text="0"/>
+        <Label layoutX="394.0" layoutY="35.0" prefHeight="17.0" prefWidth="75.0" text="Customers"/>
+        <TextField fx:id="txtSrcId" layoutX="246.0" layoutY="218.0"/>
+        <Label layoutX="99.0" layoutY="218.0" prefHeight="25.0" prefWidth="141.0" text="Enter Customer Id "/>
+        <Button layoutX="432.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnSch_onAction" prefHeight="25.0"
+                prefWidth="99.0" text="Search"/>
+        <Label fx:id="lblName" layoutX="181.0" layoutY="312.0" prefHeight="17.0" prefWidth="149.0"/>
+        <Label fx:id="lblAddress" layoutX="358.0" layoutY="312.0" prefHeight="17.0" prefWidth="149.0" text="Label"/>
+    </children>
+</AnchorPane>
